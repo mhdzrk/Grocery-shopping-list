@@ -1,0 +1,94 @@
+[
+    {
+        "slno":"1",
+        "name":"Rice",
+        "quantity":"5",
+        "unit":"kg",
+        "department":"food",
+        "notes":"essential"
+
+    },
+    {
+        "slno":"2",
+        "name":"Sugar",
+        "quantity":"2",
+        "unit":"kg",
+        "department":"food",
+        "notes":"essential"
+
+    },
+    {
+        "slno":"3",
+        "name":"salt",
+        "quantity":"1",
+        "unit":"kg",
+        "department":"food",
+        "notes":"essential"
+
+    },
+    {
+        "slno":"4",
+        "name":"washing powder",
+        "quantity":"2",
+        "unit":"kg",
+        "department":"cleaning",
+        "notes":"important"
+
+    },
+    {
+        "slno":"5",
+        "name":"soap",
+        "quantity":"5",
+        "unit":"no",
+        "department":"cleaning",
+        "notes":"important"
+
+    },
+    {
+        "slno":"6",
+        "name":"utensils",
+        "quantity":"5",
+        "unit":"no",
+        "department":"utensils",
+        "notes":"essential"
+
+    },
+    {
+        "slno":"7",
+        "name":"vegetables",
+        "quantity":"3",
+        "unit":"kg",
+        "department":"food",
+        "notes":"essential"
+
+    },
+    {
+        "slno":"8",
+        "name":"fruits",
+        "quantity":"2",
+        "unit":"kg",
+        "department":"food",
+        "notes":"optional"
+
+    },
+    {
+        "slno":"9",
+        "name":"cloths",
+        "quantity":"10",
+        "unit":"no",
+        "department":"cloths",
+        "notes":"essential"
+
+    },
+    {
+        "slno":"10",
+        "name":"chicken",
+        "quantity":"2",
+        "unit":"kg",
+        "department":"food",
+        "notes":"Important"
+
+    }
+    
+    
+]

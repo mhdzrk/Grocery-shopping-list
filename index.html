@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocery lists</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.getJSON("grocery.json",function(data){
+                var grocery_data = '';
+                $.each(data,function(key,value){
+                    grocery_data += '<tr>';
+                    grocery_data += '<td>'+value.slno+'</td>';
+                    grocery_data += '<td>'+value.name+'</td>';
+                    grocery_data += '<td>'+value.quantity+'</td>';
+                    grocery_data += '<td>'+value.unit+'</td>';
+                    grocery_data += '<td>'+value.department+'</td>';
+                    grocery_data += '<td>'+value.notes+'</td>';
+                    grocery_data += '</tr>';
+    
+    
+    
+                });
+                $("#table1").append(grocery_data);
+    
+            }); 
+    
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="table-responsive text-primary bg-info">
+            <h1 style="text-align: center;">GROCERY LIST</h1>
+            <table class="table table-bordered table-striped" id="table1">
+                <tr>
+                    <th>slno</th>
+                    <th>name</th>
+                    <th>quantity</th>
+                    <th>unit</th>
+                    <th>department</th>
+                    <th>notes</th>
+                </tr> 
+            </table>
+           
+        </div>
+        These are the lists of items to buy
+    </div>
+    
+    
+</body>
+</html>
+
